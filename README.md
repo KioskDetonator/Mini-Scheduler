@@ -35,7 +35,7 @@ graph TD
     W2 -->|API Call| Docker
     W3 -->|API Call| Docker
     
-    Docker -.->|Stats (Cgroups)| Monitor["Resource Monitor"]
+    Docker -.->|Stats Cgroups| Monitor[Resource Monitor]
 
 ```
 
